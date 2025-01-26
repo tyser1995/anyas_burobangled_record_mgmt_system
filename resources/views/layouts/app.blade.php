@@ -148,7 +148,7 @@ The above copyright notice and this permission notice shall be included in all c
     <!-- AdminLTE App -->
     <script src="{{ asset('adminlte/dist/js/adminlte.min.js') }}"></script>
     <!-- AdminLTE for demo purposes -->
-    <script src="{{ asset('adminlte/dist/js/demo.js') }}"></script> -->
+    {{-- <script src="{{ asset('adminlte/dist/js/demo.js') }}"></script> --> --}}
     <!-- adminlte -->
     <script src="{{asset('adminlte')}}/dist/js/pages/dashboard2.js"></script>
     
