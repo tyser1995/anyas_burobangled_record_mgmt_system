@@ -23,7 +23,7 @@ Homestead.json
 .phpunit.result.cache
 
 # Ignore Composer lock file
-composer.lock
+#composer.lock
 
 # Ignore Node.js package lock file
-package-lock.json
+#package-lock.json
