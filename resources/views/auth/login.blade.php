@@ -6,7 +6,7 @@
     <!-- /.login-logo -->
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <span class="h1"><b>NISU</b>-System</span>
+            <span class="h1"><b>{{env('APP_TITLE')}}</b>-{{env('APP_TITLE_2')}}</span>
         </div>
         <div class="card-body ">
             <div class="text-center">

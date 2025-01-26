@@ -87,31 +87,22 @@
                         </li>
                     @endif
 
-                    <li class="d-none nav-item {{ $elementActive == 'user' || $elementActive == 'roles' ? 'menu-open' : '' }}">
+                    <li class="nav-item {{ $elementActive == 'accomodation' ? 'menu-open' : '' }}">
                         <a href="#"
-                            class="nav-link {{ $elementActive == 'user' || $elementActive == 'roles' ? 'active' : '' }}">
-                            <i class="nav-icon fas fa-store"></i>
+                            class="nav-link {{ $elementActive == 'accomodation' ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-cogs"></i>
                             <p>
-                                Business Management
+                                System Management
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
                         <ul class="nav nav-treeview">
-                            @can('user-list')
+                            @can('accomodation-list')
                             <li class="nav-item">
-                                <a href="{{ route('users') }}"
-                                    class="nav-link {{ $elementActive == 'user' ? 'active' : '' }}">
+                                <a href="{{ route('accomodations') }}"
+                                    class="nav-link {{ $elementActive == 'accomodation' ? 'active' : '' }}">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Owner</p>
-                                </a>
-                            </li>
-                            @endcan
-                            @can('role-list')
-                            <li class="nav-item">
-                                <a href="{{ route('roles') }}"
-                                    class="nav-link {{ $elementActive == 'roles' ? 'active' : '' }}">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Store</p>
+                                    <p>Accomodation</p>
                                 </a>
                             </li>
                             @endcan
