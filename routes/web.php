@@ -67,9 +67,9 @@ Route::group(['middleware' => 'auth'], function () {
         ]);
     });
 
-    //POINT OF SALE
-    Route::get('point_of_sales', ['as' => 'point_of_sales', 'uses' => 'App\Http\Controllers\PointOfSaleController@index']);
-    Route::resource('point_of_sale', 'App\Http\Controllers\PointOfSaleController');
+    //Accomodations
+    Route::get('accomodations', ['as' => 'accomodations', 'uses' => 'App\Http\Controllers\AccomodationController@index']);
+    Route::resource('accomodation', 'App\Http\Controllers\AccomodationController');
 
     Route::get('point_of_sale_items', ['as' => 'point_of_sale_items', 'uses' => 'App\Http\Controllers\PointOfSaleItemController@index']);
     Route::resource('point_of_sale_item', 'App\Http\Controllers\PointOfSaleItemController');
