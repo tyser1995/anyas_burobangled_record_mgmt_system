@@ -5,60 +5,60 @@
 @section('content')
 	<!-- BEGIN MAIN LAYOUT -->
 	<!-- Header BEGIN -->
-  <header class="page-header">
-    <nav class="navbar navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="toggle-icon">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </span>
-                </button>
-                <a class="navbar-brand" href="#intro">
-                    <img class="logo-default" src="{{asset('home')}}/assets/onepage2/img/logo_default.png" alt="Logo">
-                    <img class="logo-scroll" src="{{asset('home')}}/assets/onepage2/img/logo_scroll.png" alt="Logo">
-                </a>
-            </div>
+    <header class="page-header" hidden>
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                    <a class="navbar-brand" href="#intro">
+                        <img class="logo-default" src="{{asset('home')}}/assets/onepage2/img/logo_default.png" alt="Logo">
+                        <img class="logo-scroll" src="{{asset('home')}}/assets/onepage2/img/logo_scroll.png" alt="Logo">
+                    </a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-responsive-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="page-scroll active">
-                        <a href="#intro">Home</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#features">Features</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#team">Team</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#clients">Clients</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#pricing">Pricing</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll active">
+                            <a href="#intro">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#features">Features</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#team">Team</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#clients">Clients</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Navbar Collapse -->
             </div>
-            <!-- End Navbar Collapse -->
-        </div>
-        <!--/container-->
-    </nav>
-</header>
-<!-- Header END -->
+            <!--/container-->
+        </nav>
+    </header>
+    <!-- Header END -->
 
 <!-- BEGIN INTRO SECTION -->
 <section id="intro">
@@ -76,12 +76,12 @@
             <div class="item carousel-item-one active">
                 <div class="container">
                     <h3 class="carousel-position-one animate-delay carousel-title-v1" data-animation="animated fadeInDown">
-                        The New Way
+                        The New Anyas
                     </h3>
                     <p class="carousel-position-two animate-delay carousel-subtitle-v1" data-animation="animated fadeInDown">
-                        To Manage Your <br> Small to Enterprise Business
+                        Anyas <br> Buroabangled
                     </p>
-                    <a href="#" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Learn More</a>
+                    {{-- <a hidden href="#" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Learn More</a> --}}
                 </div>
             </div>
            
@@ -89,10 +89,10 @@
             <div class="item carousel-item-two">
                 <div class="container">
                     <h3 class="carousel-position-one animate-delay carousel-title-v2" data-animation="animated fadeInDown">
-                        Ultimate Apps <br> for Business
+                        The New Anyas
                     </h3>
                     <p class="carousel-position-three animate-delay carousel-subtitle-v2" data-animation="animated fadeInDown">
-                        Available in: Android &amp; IOS
+                        Anyas <br> Buroabangled
                     </p>
                 </div>
             </div>
@@ -103,12 +103,12 @@
                     <div class="center-block-wrap">
                         <div class="center-block-body">
                             <h3 class="margin-bottom-20 animate-delay carousel-title-v1" data-animation="animated fadeInDown">
-                                Let us show you
+                                The New Anyas
                             </h3>
                             <p class="margin-bottom-20 animate-delay carousel-title-v3" data-animation="animated fadeInDown">
-                                A few things
+                                Anyas <br> Buroabangled
                             </p>
-                            <a href="#" class="animate-delay btn-brd-white" data-animation="animated fadeInUp">Learn More</a>
+                            {{-- <a href="#" class="animate-delay btn-brd-white" data-animation="animated fadeInUp">Learn More</a> --}}
                         </div>
                     </div>
                 </div>
@@ -120,102 +120,32 @@
 
 <!-- BEGIN MAIN LAYOUT -->
 <div class="page-content">
-    <!-- SUBSCRIBE BEGIN -->
-    <div class="subscribe">
-        <div class="container">
-            <div class="subscribe-wrap">
-                <div class="subscribe-body subscribe-desc md-margin-bottom-30">
-                    <h1>Signup for free</h1>
-                    <p>To try the most advanced business platform for mobile and desktop</p>
-                </div>
-                <div class="subscribe-body">
-                    <form class="form-wrap input-field">
-                        <div class="form-wrap-group">
-                            <input type="name" class="form-control" id="name" placeholder="Name">
-                        </div>
-                        <div class="form-wrap-group border-left-transparent">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-wrap-group">
-                            <button type="submit" class="btn-danger btn-md btn-block">Signup</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- SUBSCRIBE END -->
-
-    <!-- BEGIN ABOUT SECTION -->
-    <section id="about">
-        <!-- Services BEGIN -->
-        <div class="container service-bg">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="services sm-margin-bottom-100">
-                        <div class="services-wrap">
-                            <div class="service-body">
-                                <img src="{{asset('home')}}/assets/onepage2/img/widgets/icon1.png" alt="">
-                            </div>
-                        </div>
-                        <h2>Metronic is time saver</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="services sm-margin-bottom-100">
-                        <div class="services-wrap">
-                            <div class="service-body">
-                                <img src="{{asset('home')}}/assets/onepage2/img/widgets/icon2.png" alt="">
-                            </div>
-                        </div>
-                        <h2>Created for all type Devices</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="services">
-                        <div class="services-wrap">
-                            <div class="service-body">
-                                <img src="{{asset('home')}}/assets/onepage2/img/widgets/icon3.png" alt="">
-                            </div>
-                        </div>
-                        <h2>Great individual Design</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Services END -->
-    </section>
-    <!-- END ABOUT SECTION -->
-
     <!-- BEGIN FEATURES SECTION -->
     <section id="features">
         <!-- Features BEGIN -->
         <div class="features-bg">
             <div class="container">
                 <div class="heading">
-                    <h2><strong>Metronics</strong> Main Features</h2>
-                    <p>To try the most advanced business</p>
+                    <h2><strong>{{env('APP_TITLE')}}</strong> Accomodations</h2>
+                    <p>To try the most advanced resort</p>
                 </div><!-- //end heading -->
 
                 <!-- Features -->
                 <div class="row margin-bottom-70">
                     <div class="col-md-6 md-margin-bottom-70">
                         <div class="features">
-                            <img src="{{asset('home')}}/assets/onepage2/img/widgets/screen1.png" alt="">
+                            <img src="{{asset('images')}}/bg/p1.jpeg" alt="">
                             <div class="features-in">
-                                <h3><a href="#">Full sass support</a></h3>
+                                <h3><a href="#">{{__("P1")}}</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="features">
-                            <img src="{{asset('home')}}/assets/onepage2/img/widgets/screen2.png" alt="">
+                            <img src="{{asset('images')}}/bg/p2.jpeg" alt="">
                             <div class="features-in">
-                                <h3><a href="#">Awesome design</a></h3>
+                                <h3><a href="#">{{__("P2")}}</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
@@ -224,18 +154,18 @@
                 <div class="row margin-bottom-80">
                     <div class="col-md-6 md-margin-bottom-70">
                         <div class="features">
-                            <img src="{{asset('home')}}/assets/onepage2/img/widgets/screen3.png" alt="">
+                            <img src="{{asset('images')}}/bg/p3.jpeg" alt="">
                             <div class="features-in">
-                                <h3><a href="#">Built with bootstrap</a></h3>
+                                <h3><a href="#">{{__("P3")}}</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="features">
-                            <img src="{{asset('home')}}/assets/onepage2/img/widgets/screen4.png" alt="">
+                            <img src="{{asset('images')}}/bg/p4.jpeg" alt="">
                             <div class="features-in">
-                                <h3><a href="#">AngularJS support</a></h3>
+                                <h3><a href="#">{{__("P4")}}</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
@@ -243,7 +173,7 @@
                 </div><!-- //end row -->
                 <!-- End Features -->
 
-                <center><a href="#" class="btn-brd-danger">Try it for free</a></center>
+                {{-- <center><a href="#" class="btn-brd-danger">Try it for free</a></center> --}}
             </div>
         </div>
         <!-- Features END -->
@@ -251,7 +181,7 @@
     <!-- END FEATURES SECTION -->
 
     <!-- BEGIN TEAM SECTION -->
-    <section id="team">
+    <section id="team" hidden>
         <!-- Team BEGIN -->
         <div class="team-bg parallax">
             <div class="container">
@@ -388,7 +318,7 @@
     <!-- END TEAM SECTION -->
 
     <!-- BEGIN CLIENTS SECTION -->
-    <section id="clients">
+    <section id="clients" hidden>
         <div class="clients">
             <div class="clients-bg">
                 <div class="container">
@@ -527,7 +457,7 @@
     <!-- END CLIENTS SECTION -->
 
     <!-- BEGIN PORTFOLIO SECTION -->
-    <section id="portfolio">
+    <section id="portfolio" hidden>
         <div class="portfolio">
             <div class="container">
                 <div class="heading">
@@ -628,7 +558,7 @@
     <!-- END PORTFOLIO SECTION -->
 
     <!-- BEGIN PRICING SECTION -->
-    <section id="pricing">
+    <section id="pricing" hidden>
         <div class="pricing-bg">
             <div class="container">
                 <div class="heading">
@@ -695,8 +625,8 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="heading-left-light">
-                            <h2>Say hello to Metronic</h2>
-                            <p>To try the most advanced business platform <br> for mobile and desktop</p>
+                            <h2>Say hello to Anyas</h2>
+                            <p>To try the most advanced resort <br> in Antique</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -721,9 +651,9 @@
         <!-- End Footer -->
 
         <!-- Footer Coypright -->
-        <div class="footer-copyright">
+        <div class="footer-copyright d-none">
             <div class="container">
-                <h3>Metronic</h3>
+                <h3 hidden>Metronic</h3>
                 <ul class="copyright-socials">
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -731,7 +661,7 @@
                     <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
-                <P>Designed with love by <a href="http://www.keenthemes.com/">KeenThemes</a></P>
+                <p hidden>Designed with love by <a href="http://www.keenthemes.com/">KeenThemes</a></p>
             </div>
         </div>
         <!-- End Footer Coypright -->
